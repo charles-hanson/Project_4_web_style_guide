@@ -1,0 +1,28 @@
+.img {
+
+  &--logo,
+  &--frame,
+  &--avatar {
+    @include center;
+  }
+  &--frame {
+    padding: 10px;
+    width: 95%;
+    margin-bottom: 30px;
+    border: 1px solid lightgray;
+  }
+}
+
+.grid__col--3 img {
+  padding-top: 35px;
+}
+
+@media (min-width: $max-width) {
+  .grid__col--6 img[src="images/avatar.png"] {
+    padding: 10px;
+  }
+  .img--frame {
+    width: 78%;
+  }
+
+}
