@@ -75,7 +75,7 @@
   }
 }// DEBUG:
 
-@media (min-width: 1200px){
+@media (min-width: $max-width){
   .centered {
     display: block;
     margin-left: auto;
