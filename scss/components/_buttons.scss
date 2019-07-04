@@ -1,0 +1,46 @@
+
+.btn {
+  &--default,
+  &--success,
+  &--error,
+  &--warning,
+  &--info {
+    @include nav-btn-padding;
+    @include uppercase;
+    margin-bottom: 15px;
+    border: none;
+    @media (min-width: $max-width) {
+      width: 15%;
+    }
+  }
+  &--default {
+    // margin-top: 15px;
+    // color: $font-color-secondary;
+    // background: $secondary-color;
+  }
+}
+
+@each $theme, $color in $btn-themes {
+  .btn--#{$theme} {
+    background-color: $color;
+    color: $font-color-secondary;
+  }
+}
+
+.grid__col--12 {
+  display: flex;
+  flex-direction: column;
+  @media (min-width: $max-width) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ }
+}
+
+button[type="submit"] {
+  width: 95%;
+  margin-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
