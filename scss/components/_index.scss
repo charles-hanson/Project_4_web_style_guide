@@ -1,0 +1,19 @@
+// **************************************
+// components/_index.scss
+// used to import individual components
+// **************************************
+
+// import the grid component
+@import 'grid';
+
+// NOTE: import other components here:
+@import 'buttons',
+        'forms',
+        'images',
+        'navigation',
+        'typography';
+
+.container { //need to put in proper scss page
+  width: 90%;
+  @include center;
+}
