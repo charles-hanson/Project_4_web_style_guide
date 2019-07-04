@@ -13,11 +13,6 @@
       width: 15%;
     }
   }
-  &--default {
-    // margin-top: 15px;
-    // color: $font-color-secondary;
-    // background: $secondary-color;
-  }
 }
 
 @each $theme, $color in $btn-themes {
