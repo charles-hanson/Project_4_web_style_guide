@@ -48,11 +48,3 @@ $grid-themes: (
      'col--8': #fd9f85,
     'col--12': #8be8d1
 );
-
-// //Loops
-//
-// @for $i from 1 through 4 {
-//   .box-color-#{$i} {
-//     background-color: adjust-hue(#03cdff, $i * 85);
-//   }
-// }
