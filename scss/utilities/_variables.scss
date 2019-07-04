@@ -1,0 +1,58 @@
+// Colors
+$font-color-primary: #58e1c1;
+$font-color-secondary: #fff;
+$font-color-light: #8e8e8e;
+
+$background-color: #fff;
+
+$primary-color: #58e1c1;
+$secondary-color: #03cdff;
+
+$link-color: #54defc;
+
+$default-color: #51ddfc;
+$success-color: #63cc82;
+$error-color: #e4757a;
+$warning-color: #fd7856;
+$info-color: #927bc1;
+// #8903ff
+// Fonts
+$primary-font: 'Roboto', sans-serif;;
+
+// Layout
+
+$max-width: 1024px;
+
+
+// Breakpoints
+$breakpoints: (
+'sm': 480px,
+'lg': 481px
+);
+
+// Theme Colors
+   $btn-themes: (
+ 'default': $default-color,
+ 'success': $success-color,
+   'error': $error-color,
+ 'warning': $warning-color,
+    'info': $info-color,
+);
+
+$grid-themes: (
+     'col--3': #deb2ee,
+     'col--4': #7ee6fd,
+     'col--5': #88d9a0,
+     'col--6': #3fabca,
+     'col--7': #ec9fac,
+     'col--8': #fd9f85,
+    'col--12': #8be8d1
+);
+
+// //Loops
+//
+// @for $i from 1 through 4 {
+//   .box-color-#{$i} {
+//     background-color: adjust-hue(#03cdff, $i * 85);
+//   }
+// }
